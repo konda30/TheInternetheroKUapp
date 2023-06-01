@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Test.TestDynamicContent">
+        <methods>
+          <include name="close"/>
+          <include name="img1demo"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.Test.TestDynamicContent -->
+      <class name="com.Test.TestDissappearingElements">
+        <methods>
+          <include name="all1"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.Test.TestDissappearingElements -->
+      <class name="com.Test.TestContextMenu">
+        <methods>
+          <include name="close"/>
+          <include name="alertm1"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.Test.TestContextMenu -->
+      <class name="com.Test.TestEntryAd">
+        <methods>
+          <include name="enteryadd"/>
+          <include name="launch"/>
+          <include name="close"/>
+          <include name="clsoe"/>
+        </methods>
+      </class> <!-- com.Test.TestEntryAd -->
+      <class name="com.Test.TestAddRemoveElements">
+        <methods>
+          <include name="launch"/>
+          <include name="deltelmt"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.Test.TestAddRemoveElements -->
+      <class name="com.Test.TestDynamicControls">
+        <methods>
+          <include name="enabledy"/>
+          <include name="launch"/>
+          <include name="close"/>
+          <include name="disable"/>
+        </methods>
+      </class> <!-- com.Test.TestDynamicControls -->
+      <class name="com.Test.TestBasicAuth">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+          <include name="userpass"/>
+        </methods>
+      </class> <!-- com.Test.TestBasicAuth -->
+      <class name="com.Test.TestShiftingContent">
+        <methods>
+          <include name="close"/>
+          <include name="menur"/>
+          <include name="launch"/>
+          <include name="back"/>
+        </methods>
+      </class> <!-- com.Test.TestShiftingContent -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
